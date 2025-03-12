@@ -58,9 +58,6 @@ const Context = () => {
                   {World[0].location.name === "Sokhumi" && (
                     <div className="flex flex-col">
                       <h1 className="text-white">is Georgia</h1>
-                      <h3 className="text-white">
-                        ვალერ შემდეგ წელს შენთან აფხაზეთში
-                      </h3>
                     </div>
                   )}
                 </div>
