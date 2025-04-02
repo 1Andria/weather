@@ -3,7 +3,7 @@ import { CountryType, useWorld } from "../Zustand/World";
 export async function FetchData(city: string) {
   try {
     const params = await axios.get(
-      `http://api.weatherapi.com/v1/current.json?key=f7ee212280d64023a95161927251103&q=${city}`
+      `https://api.weatherapi.com/v1/current.json?key=f7ee212280d64023a95161927251103&q=${city}`
     );
     const formattedData: CountryType[] = [
       {
